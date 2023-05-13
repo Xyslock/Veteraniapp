@@ -1,0 +1,26 @@
+
+.vet_somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.vet_cont_sec_1{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    margin: auto;
+}

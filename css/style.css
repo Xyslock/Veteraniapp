@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vet-nav{
+    background-color: rgba(255, 255, 255, 0.7)!important;
+}
+.vet-nav div ,.vet-nav ul{
+    background-color: transparent !important ;
+}
+.carga{
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    transition: all 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cargando,
+.cargando:before,
+.cargando:after{
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    animation: cargando 1.5s infinite ease-in-out;
+}
+.cargando{
+    color: white;
+    font-size: 13px;
+    position: relative;
+    animation-delay: -0.16s;
+}
+.cargando:before,
+.cargando:after{
+    content: '';
+    position: absolute;
+    top: 0;
+}
+.cargando:before{
+    left: -3.5em;
+    animation-delay: -0.35s;
+}
+.cargando:after{
+    left: 3.5em;
+}

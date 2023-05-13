@@ -1,0 +1,13 @@
+.vet_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.enlaces{
+    text-decoration: none;
+    color: white;
+}

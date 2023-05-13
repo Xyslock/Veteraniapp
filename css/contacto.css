@@ -1,0 +1,43 @@
+body{
+   background-image: url(../img/fondo.jpg);
+   
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+}
+.seccion-contacto{
+   height: 100vh;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+ /*------------------------Formulario-------------------------------------------*/
+#contenedor-formulario{
+    position: relative;
+    top: 30%;
+   padding-top: 10%;
+    background: transparent;
+    border-radius: 5px;
+    max-width: 500px;
+    
+    
+ }
+ #titulo-formulario{
+    color: white;
+ }
+ #menu h1{
+
+   font-size: 18px;
+   font-weight:bold;
+   
+ }
+ @media (max-width:768px){
+
+   #contenedor-formulario{
+      top: 100px;
+   }
+
+
+ }
